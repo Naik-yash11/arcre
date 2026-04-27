@@ -13,7 +13,18 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', 'Baskerville', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
+        navy: "hsl(var(--navy))",
+        slate: "hsl(var(--slate))",
+        steel: {
+          DEFAULT: "hsl(var(--steel))",
+          hover: "hsl(var(--steel-hover))",
+        },
+        ink: "hsl(var(--ink))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
