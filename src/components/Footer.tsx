@@ -1,11 +1,6 @@
 import ArcReLogo from "./ArcReLogo";
 
-const offices = [
-  { city: "London", line: "1 King William Street, EC4N" },
-  { city: "New York", line: "200 Park Avenue, 10166" },
-  { city: "Singapore", line: "Marina Bay Financial Centre" },
-  { city: "Mumbai", line: "Bandra Kurla Complex" },
-];
+const offices = ["Dubai", "Mumbai", "Maldives", "Nepal", "Malaysia"];
 
 const Footer = () => {
   return (
@@ -23,13 +18,8 @@ const Footer = () => {
           <div className="lg:col-span-5">
             <h4 className="font-serif text-white text-lg mb-6">Offices</h4>
             <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-4 text-sm">
-              {offices.map((o) => (
-                <li key={o.city}>
-                  <div className="text-white">{o.city}</div>
-                  <div className="text-white/50 text-[0.8rem] mt-1">
-                    {o.line}
-                  </div>
-                </li>
+              {offices.map((city) => (
+                <li key={city} className="text-white">{city}</li>
               ))}
             </ul>
           </div>
