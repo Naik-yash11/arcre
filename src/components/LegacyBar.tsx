@@ -14,7 +14,7 @@ const items = [
   {
     label: "Innovation",
     heading: "Advanced Data Science Integration",
-    body: "Mr. Yash Naik leveraging over a decade of dedicated data science and analytics expertise to modernize risk structuring and capital efficiency.",
+    body: "Yash V. Naik leveraging over a decade of dedicated data science and analytics expertise to modernize risk structuring and capital efficiency.",
   },
 ];
 
