@@ -1,3 +1,4 @@
+import { MapPin } from "lucide-react";
 import ArcReLogo from "./ArcReLogo";
 
 const offices = ["Dubai", "Mumbai", "Maldives", "Nepal", "Malaysia"];
