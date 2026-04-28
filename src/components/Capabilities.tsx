@@ -66,11 +66,6 @@ const Capabilities = () => {
                 ease: [0.22, 1, 0.36, 1],
               }}
               whileHover={{ y: -8 }}
-              transition={{
-                duration: 0.7,
-                delay: i * 0.12,
-                ease: [0.22, 1, 0.36, 1],
-              }}
               className="group relative rounded-sm border border-border bg-white p-8 lg:p-10 shadow-sm transition-all duration-500 hover:shadow-[0_25px_50px_-12px_hsl(var(--navy)/0.25)] hover:border-steel/60"
             >
               <div className="flex items-start justify-between mb-8">
