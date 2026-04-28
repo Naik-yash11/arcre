@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="mt-12 flex flex-wrap items-center gap-6">
             <a
               href="#capabilities"
-              className="inline-flex items-center gap-3 bg-steel hover:bg-steel-hover text-white px-8 py-4 text-sm font-medium tracking-wide transition-colors"
+              className="inline-flex items-center gap-3 bg-steel hover:bg-steel-hover text-white px-8 py-4 text-sm font-medium tracking-wide transition-all duration-300 shadow-sm hover:shadow-[0_10px_30px_-10px_hsl(var(--steel)/0.6)]"
             >
               View Our Solutions
               <span aria-hidden>→</span>

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const items = [
   {
     label: "Heritage",
@@ -7,7 +9,7 @@ const items = [
   {
     label: "Leadership",
     heading: "40+ Years of Market Leadership",
-    body: "Anchored by Vivek K. Naik’s four decades of global broking experience and deep, enduring market relationships.",
+    body: "Anchored by Vivek K. Naik's four decades of global broking experience and deep, enduring market relationships.",
   },
   {
     label: "Innovation",
@@ -21,21 +23,29 @@ const LegacyBar = () => {
     <section id="about" className="bg-slate">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-20 lg:py-28">
         <div className="grid md:grid-cols-3 gap-px bg-border">
-          {items.map((item) => (
-            <article
+          {items.map((item, i) => (
+            <motion.article
               key={item.heading}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{
+                duration: 0.7,
+                delay: i * 0.12,
+                ease: [0.22, 1, 0.36, 1],
+              }}
               className="bg-slate p-8 lg:p-10 flex flex-col"
             >
               <span className="text-[11px] uppercase tracking-[0.3em] text-steel font-semibold mb-6">
                 {item.label}
               </span>
-              <h3 className="font-serif text-navy text-2xl lg:text-[1.75rem] leading-snug mb-5">
+              <h3 className="font-serif text-navy text-xl sm:text-2xl lg:text-[1.75rem] leading-snug mb-5">
                 {item.heading}
               </h3>
               <p className="text-ink/75 leading-relaxed text-[0.975rem]">
                 {item.body}
               </p>
-            </article>
+            </motion.article>
           ))}
         </div>
       </div>

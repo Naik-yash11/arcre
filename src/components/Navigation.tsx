@@ -23,7 +23,7 @@ const Navigation = () => {
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/95 backdrop-blur border-b border-border"
+          ? "bg-white/70 backdrop-blur-xl border-b border-border shadow-[0_1px_0_0_hsl(var(--border))]"
           : "bg-transparent"
       }`}
     >
