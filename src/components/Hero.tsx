@@ -1,14 +1,14 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import heroBridge from "@/assets/hero-bridge.jpg";
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: {
     transition: { staggerChildren: 0.18, delayChildren: 0.2 },
   },
 };
 
-const lineVariants = {
+const lineVariants: Variants = {
   hidden: { opacity: 0, y: 28 },
   visible: {
     opacity: 1,
