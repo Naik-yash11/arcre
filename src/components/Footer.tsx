@@ -1,3 +1,4 @@
+import { MapPin } from "lucide-react";
 import ArcReLogo from "./ArcReLogo";
 
 const offices = ["Dubai", "Mumbai", "Maldives", "Nepal", "Malaysia"];
@@ -16,10 +17,21 @@ const Footer = () => {
           </div>
 
           <div className="lg:col-span-5">
-            <h4 className="font-serif text-white text-lg mb-6">Offices</h4>
-            <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-4 text-sm">
+            <h4 className="font-serif text-white text-lg mb-6 tracking-wide">Global Offices</h4>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {offices.map((city) => (
-                <li key={city} className="text-white">{city}</li>
+                <li key={city}>
+                  <a
+                    href="#"
+                    className="group flex items-center gap-2 px-4 py-2.5 rounded-md border border-white/10 bg-white/[0.03] text-sm font-medium text-white/90 tracking-wide transition-all duration-300 hover:bg-white/10 hover:border-white/30 hover:text-white hover:-translate-y-0.5 hover:shadow-[0_8px_24px_-12px_rgba(255,255,255,0.25)]"
+                  >
+                    <MapPin className="h-3.5 w-3.5 text-white/50 transition-colors duration-300 group-hover:text-white" />
+                    <span className="relative">
+                      {city}
+                      <span className="absolute left-0 -bottom-0.5 h-px w-0 bg-white transition-all duration-300 group-hover:w-full" />
+                    </span>
+                  </a>
+                </li>
               ))}
             </ul>
           </div>
