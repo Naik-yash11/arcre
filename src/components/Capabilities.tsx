@@ -65,13 +65,18 @@ const Capabilities = () => {
                 delay: i * 0.12,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              whileHover={{ y: -4 }}
-              className="group relative rounded-sm border border-border bg-white p-8 lg:p-10 shadow-sm transition-shadow duration-300 hover:shadow-md hover:border-steel/60"
+              whileHover={{ y: -8 }}
+              transition={{
+                duration: 0.7,
+                delay: i * 0.12,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+              className="group relative rounded-sm border border-border bg-white p-8 lg:p-10 shadow-sm transition-all duration-500 hover:shadow-[0_25px_50px_-12px_hsl(var(--navy)/0.25)] hover:border-steel/60"
             >
               <div className="flex items-start justify-between mb-8">
-                <div className="h-12 w-12 rounded-sm bg-steel/5 flex items-center justify-center group-hover:bg-steel/10 transition-colors">
+                <div className="h-12 w-12 rounded-sm bg-steel/5 flex items-center justify-center transition-all duration-500 group-hover:bg-steel/10 group-hover:scale-110">
                   <c.Icon
-                    className="text-steel"
+                    className="text-steel transition-transform duration-500 group-hover:scale-110"
                     strokeWidth={1.5}
                     size={26}
                     aria-hidden
