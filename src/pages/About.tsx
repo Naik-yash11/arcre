@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
+import BrandPillars from "@/components/BrandPillars";
 
 type Generation = {
   era: string;
@@ -56,8 +57,11 @@ const About = () => {
       <PageHeader
         eyebrow="About Arc Re"
         title="Three generations of intellectual capital in reinsurance."
-        intro="Arc Re is a privately-held global reinsurance broking firm anchored by an unusual continuity of expertise — from foundational scholarship, through four decades of market relations, into the modern practice of quantitative risk structuring."
+        intro="Arc Re — short for Analytics and Risk Consulting — is a privately-held global reinsurance broking firm anchored by an unusual continuity of expertise: from foundational scholarship, through four decades of market relations, into the modern practice of quantitative risk structuring."
       />
+
+      <BrandPillars />
+
 
       <section className="bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-24 lg:py-32 space-y-28 lg:space-y-40">
