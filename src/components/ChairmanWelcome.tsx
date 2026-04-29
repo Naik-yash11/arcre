@@ -54,7 +54,7 @@ const ChairmanWelcome = () => {
             consistency that long-tail risk demands.
           </p>
           <div className="pt-6 border-t border-border">
-            <p className="font-serif text-navy text-lg">Vivek K. Naik</p>
+            <p className="font-serif text-navy text-lg">Yash V. Naik</p>
             <p className="text-sm text-ink/60 mt-1">Chairman, Arc Re</p>
           </div>
         </motion.div>
