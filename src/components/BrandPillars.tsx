@@ -20,7 +20,7 @@ const pillars = [
 
 const BrandPillars = () => {
   return (
-    <section className="bg-cream/40 border-y border-border">
+    <section className="bg-slate border-y border-border">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-24 lg:py-32">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
