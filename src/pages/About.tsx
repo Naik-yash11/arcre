@@ -27,7 +27,7 @@ const generations: Generation[] = [
   {
     era: "Second Generation · Market Relations",
     name: "Vivek K. Naik",
-    role: "Chairman · Forty Years in Global Broking",
+    role: "Principal · Forty Years in Global Broking",
     paragraphs: [
       "Vivek K. Naik has spent over four decades at the table with the world's principal reinsurance markets — from the Lloyd's syndicates and London company market through Continental Europe, Bermuda and the Asian regional carriers. His relationships are direct, personal and earned across hard and soft markets alike.",
       "Under his stewardship, Arc Re has built a reputation for placing programmes that other intermediaries decline: long-tail casualty, complex specialty, and accounts whose data history requires patient explanation rather than aggressive marketing. That reputation translates, in practical terms, into capacity availability and pricing discipline that few firms of comparable size can offer.",
@@ -39,7 +39,7 @@ const generations: Generation[] = [
   {
     era: "Third Generation · Data Science",
     name: "Yash V. Naik",
-    role: "Analytics & Quantitative Structuring",
+    role: "Chairman · Analytics & Quantitative Structuring",
     paragraphs: [
       "The third generation brings to the firm more than a decade of dedicated work in data science and quantitative analysis. Yash V. Naik leads the analytics practice that now sits at the heart of every major placement, translating raw cedant data into stochastic loss distributions, exposure-based pricing benchmarks and capital-efficiency studies.",
       "This capability allows Arc Re to engage reinsurers in a quantitative dialogue: presenting submissions accompanied by reproducible models, sensitivity analyses and tail-risk diagnostics. The outcome is consistently tighter pricing for clean portfolios and more defensible terms for complex ones.",
