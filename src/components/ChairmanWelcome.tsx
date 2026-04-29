@@ -27,14 +27,15 @@ const ChairmanWelcome = () => {
           className="lg:col-span-8 space-y-6 text-ink/80 leading-relaxed text-base md:text-lg"
         >
           <p>
-            Arc Re occupies a deliberate position at the intersection of
-            traditional reinsurance market capacity and modern actuarial data
-            science. For three generations, our principals have advised cedants
-            and capital providers across diverse geographies, structuring risk
-            transfer that protects balance sheets through cycles of soft and
-            hard market conditions alike. That continuity of relationships, and
-            the institutional memory it carries, remains the foundation on which
-            every placement is built.
+            Arc Re — Analytics and Risk Consulting — occupies a deliberate
+            position at the intersection of traditional reinsurance market
+            capacity and modern actuarial data science. The name is the
+            mandate: every engagement begins with analysis, and capacity is
+            structured as the consequence of evidence rather than the starting
+            point of a negotiation. For three generations, our principals have
+            advised cedants and capital providers across diverse geographies,
+            structuring risk transfer that protects balance sheets through
+            cycles of soft and hard market conditions alike.
           </p>
           <p>
             Today, the discipline of reinsurance is being reshaped by granular
