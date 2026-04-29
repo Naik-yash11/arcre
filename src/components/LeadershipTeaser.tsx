@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LeadershipTeaser = () => {
   return (
     <section id="insights" className="relative bg-navy overflow-hidden">
@@ -29,13 +31,13 @@ const LeadershipTeaser = () => {
               capital, direct market relationships, and an unwavering commitment
               to client advocacy.
             </p>
-            <a
-              href="#contact"
+            <Link
+              to="/about"
               className="mt-10 inline-flex items-center gap-3 border border-white/60 hover:border-white text-white px-8 py-4 text-sm font-medium tracking-wide transition-colors hover:bg-white/5"
             >
               Meet the Team
               <span aria-hidden>→</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
