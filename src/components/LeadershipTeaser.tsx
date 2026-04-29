@@ -1,4 +1,4 @@
-const LeadershipTeaser = () => {
+import { Link } from "react-router-dom";
   return (
     <section id="insights" className="relative bg-navy overflow-hidden">
       {/* decorative arc */}
